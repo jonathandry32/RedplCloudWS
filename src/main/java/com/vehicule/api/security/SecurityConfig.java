@@ -60,7 +60,7 @@ public class SecurityConfig {
         @Override
         public void addCorsMappings(CorsRegistry registry) {
             registry.addMapping("/**")  
-                    .allowedOrigins("http://localhost:3000","https://keen-biscuit-001a4d.netlify.app/","https://bucolic-entremet-53d92a.netlify.app/")
+                    .allowedOrigins("http://localhost:3000","https://keen-biscuit-001a4d.netlify.app/","https://bucolic-entremet-53d92a.netlify.app/","https://tranquil-kangaroo-033c9b.netlify.app","https://elaborate-daifuku-2c6c9f.netlify.app")
                     .allowedMethods("GET", "POST", "PUT", "DELETE")
                     .allowedHeaders("Authorization", "Content-Type")
                     .allowCredentials(true)
